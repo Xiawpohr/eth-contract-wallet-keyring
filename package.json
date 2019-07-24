@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repositiry": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Xiawpohr/eth-contract-wallet-keyring.git"
+  },
   "keywords": [
     "ethereum",
     "keyring",
