@@ -1,7 +1,7 @@
-import { EventEmitter } from 'events'
-import Wallet from 'ethereumjs-wallet'
-import ethUtil from 'ethereumjs-util'
-import sigUtil from 'eth-sig-util'
+const EventEmitter = require('events').EventEmitter
+const Wallet = require('ethereumjs-wallet')
+const ethUtil = require('ethereumjs-util')
+const sigUtil = require('eth-sig-util')
 
 const type = 'Contract Wallet Keyring'
 
@@ -88,4 +88,4 @@ class ContractWalletKeyring extends EventEmitter {
 }
 
 ContractWalletKeyring.type = type
-export default ContractWalletKeyring
+module.exports = ContractWalletKeyring
